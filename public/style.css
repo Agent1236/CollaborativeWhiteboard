@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whiteboard {
+    border: 1px solid #ffffff;
+    cursor: crosshair;
+}
+
+#roomName, #joinRoom, #saveSketch {
+    margin: 10px;
+    background-color: black;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#sketchList {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: scroll;
+    width: 200px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}

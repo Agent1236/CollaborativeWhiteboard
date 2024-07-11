@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Whiteboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="whiteboard"></canvas>
+        <input type="text" id="roomName" placeholder="Room Name">
+        <button id="joinRoom">Join Room</button>
+        <button id="saveSketch">Save Sketch</button>
+        <div id="sketchList"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
